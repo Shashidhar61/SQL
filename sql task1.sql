@@ -9,7 +9,7 @@ insert into mphasis values("bangalore","1212");
 insert into mphasis values("mumbai","1202");
 insert into mphasis values("bangalore","1002");
 commit;
-#to join the tables
+#to join the tables of two
 select emp_name,emp_dept,emp_desg,emp_loc 
 from emp JOIN mphasis 
 ON emp.emp_id=mphasis.emp_id ;
